@@ -1,12 +1,51 @@
-# React + Vite
+# GitHub User Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application that allows users to search for GitHub profiles using the GitHub REST API. The application displays user profile information and public repositories in a clean and responsive interface.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Search GitHub users by username
+* View profile information (avatar, bio, location, company)
+* Display followers, following, and public repository count
+* Browse public repositories
+* Responsive design
+* Loading and error handling
 
-## Expanding the ESLint configuration
+## Technologies
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS3
+* GitHub REST API
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/damlabuyukutnu/GithubUserSearch.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd GithubUserSearch
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+## Live Demo
+
+https://github-user-search-zeta-ruddy.vercel.app
+
